@@ -80,7 +80,7 @@ function Cart() {
             let title = product.title;
             let imageUrl = product.imageUrl;
             let price = product.price;
-            let quantity = product.quantity;
+            const quantity = product.quantity;
 
             // If Quantity is > 0
             if (quantity > 0) {
@@ -109,7 +109,7 @@ function Cart() {
                     -
                   </button>
                   <input
-                    readOnly
+                  
                     className="quantity"
                     maxLength="3"
                     type="text"
